@@ -8,13 +8,26 @@ L'étude des mécanismes régulateurs de la glycémie est essentielle dans le co
 
 - **Développement d'un Modèle Prédictif :** Créer un modèle fiable pour simuler la glycémie post ingestion de glucose chez des souris.
 - **Compréhension des Maladies Métaboliques :** Étudier l'impact d'une pathologie absorptive sur la régulation de la glycémie.
-- **Extension aux Cas Humains :** Adapter le modèle pour qu'il puisse être utilisé dans des contextes humains, augmentant ainsi sa pertinence clinique.
 
 ## Méthodologie
 
 ### Analyse des Données
 
-- **Jeu de Données :** Analyse d'une matrice de données représentant la glycémie de souris en fonction du temps, avec un accent sur l'identification de tendances et d'anomalies&#8203;``【oaicite:4】``&#8203;.
+- **Description du Jeu de Données :** Utilisation d'une matrice `calibration.mat` qui inclut le temps de l'expérience et le taux de glycémie de chaque souris. Cette analyse aide à comprendre la dynamique d'absorption et de dégradation du glucose. La glycémie obtenue est exprimée en mg/dL, une unité importante pour la modélisation&#8203;``【oaicite:5】``&#8203;.
+
+- **Dynamique de la Glycémie :** Observation d'une augmentation rapide suivie d'une diminution lente du taux de glucose. Ce comportement reflète l'interaction entre la consommation de glucose par les organes, l'action de l'insuline, et le rôle du foie&#8203;``【oaicite:4】``&#8203;.
+
+- **Boite à Moustaches du Jeu de Données :** Cette représentation graphique permet de détecter les valeurs aberrantes et d'examiner la normalité des données. Il est constaté que les souris présentent une grande hétérogénéité en termes de répartition glycémique&#8203;``【oaicite:3】``&#8203;.
+
+### Tests Statistiques sur le Jeu de Données
+
+- **Tests de Normalité et d'Égalité des Médianes :** Utilisation du test de Wilk-Shapiro et du test de Kruskal-Wallis pour analyser la normalité des données et l'égalité des médianes. Les résultats indiquent des différences significatives entre les souris, suggérant l'existence de dynamiques glycémiques distinctes&#8203;``【oaicite:2】``&#8203;.
+
+- **Analyse Comparative Deux à Deux :** Mise en œuvre de tests de Wilcoxon-Mann-Whitney pour comparer les distributions de données entre les souris. Cette analyse permet d'identifier les sous-groupes de souris avec des distributions similaires&#8203;``【oaicite:1】``&#8203;.
+
+- **Stratégie de Calibration :** Calibration basée sur la moyenne de l'ensemble des souris, suivie d'une analyse individuelle pour chaque souris. Les souris présentant des dynamiques distinctes seront examinées séparément pour affiner le modèle&#8203;``【oaicite:0】``&#8203;.
+
+
 
 ### Hypothèses et Modélisation
 
