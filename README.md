@@ -2,52 +2,47 @@
 
 ## Introduction
 
-L'étude des mécanismes de régulation de la glycémie est une question de santé publique majeure, en particulier pour la compréhension et la détection du diabète. Ce projet vise à développer un modèle prédictif basé sur le test oral de tolérance au glucose chez des souris de laboratoire, afin de comprendre l'impact d'une maladie absorptive sur la glycémie et d'étendre les résultats à l'humain&#8203;``【oaicite:7】``&#8203;.
+L'étude des mécanismes régulateurs de la glycémie est essentielle dans le contexte de santé publique, notamment pour la compréhension et la détection des troubles métaboliques comme le diabète. Ce projet se concentre sur le développement d'un modèle prédictif basé sur le test oral de tolérance au glucose chez des souris, visant à étudier l'impact d'une pathologie absorptive sur la glycémie.
 
 ## Objectifs du Projet
 
-- **Comprendre la Dynamique de la Glycémie :** Analyser comment le glucose est absorbé, régulé et dégradé dans l'organisme.
-- **Modélisation Prédictive :** Utiliser des modèles mathématiques pour simuler la réponse glycémique après une ingestion de glucose.
-- **Application à des Cas Pathologiques :** Étudier l'impact d'une maladie affectant la tolérance au glucose chez les souris.
+- **Développement d'un Modèle Prédictif :** Créer un modèle fiable pour simuler la glycémie post ingestion de glucose chez des souris.
+- **Compréhension des Maladies Métaboliques :** Étudier l'impact d'une pathologie absorptive sur la régulation de la glycémie.
+- **Extension aux Cas Humains :** Adapter le modèle pour qu'il puisse être utilisé dans des contextes humains, augmentant ainsi sa pertinence clinique.
 
 ## Méthodologie
 
-### Calibration du Modèle
+### Analyse des Données
 
-- **Analyse des Données :** Le jeu de données comprend la mesure du taux de glycémie de différentes souris en fonction du temps&#8203;``【oaicite:6】``&#8203;.
-- **Élaboration des Hypothèses :** Formulation d'hypothèses basées sur la physiologie du glucose et la réponse à l'insuline&#8203;``【oaicite:5】``&#8203;.
-- **Schématisation et Paramètres :** Développement d'un modèle intégrant les interactions entre différents organes et paramètres biologiques&#8203;``【oaicite:4】``&#8203;.
+- **Jeu de Données :** Analyse d'une matrice de données représentant la glycémie de souris en fonction du temps, avec un accent sur l'identification de tendances et d'anomalies&#8203;``【oaicite:4】``&#8203;.
 
-### Modèles Développés
+### Hypothèses et Modélisation
 
-- **Modèle à 5 Paramètres :** Un modèle complexe incluant divers aspects de la dynamique du glucose et de l'insuline&#8203;``【oaicite:3】``&#8203;.
-- **Modèle à 3 Paramètres :** Un modèle simplifié, adapté en l'absence de données sur l'insuline&#8203;``【oaicite:2】``&#8203;.
+- **Formulation d'Hypothèses :** Développement d'hypothèses basées sur la biologie du glucose et son interaction avec l'insuline&#8203;``【oaicite:3】``&#8203;.
+- **Conception du Modèle :** Schématisation des interactions entre les différents compartiments biologiques impliqués dans la régulation du glucose&#8203;``【oaicite:2】``&#8203;.
 
-### Résultats de Calibration
+### Développement des Modèles
 
-- **Simulations et Ajustements :** Les modèles ont été ajustés en fonction des données moyennes pour obtenir une courbe d'ajustement fiable&#8203;``【oaicite:1】``&#8203;.
+- **Modèles à Différents Paramètres :** Création de modèles à 5 et 3 paramètres, en tenant compte des spécificités de chaque approche&#8203;``【oaicite:1】``&#8203;.
 
 ## Résultats et Discussion
 
-### Analyse des Résultats
+### Résultats de Calibration
 
-- **Comparaison des Modèles :** Évaluation des performances et de la pertinence des modèles à 5 et 3 paramètres.
-- **Interprétation Biologique :** Compréhension des résultats à la lumière des connaissances actuelles sur la glycémie et le métabolisme du glucose.
+- **Ajustement des Modèles :** Présentation des courbes d'ajustement et analyse de leur adéquation avec les données moyennes&#8203;``【oaicite:0】``&#8203;.
+- **Illustrations des Résultats :** _[Ajoutez ici le lien vers vos graphiques de calibration]_
 
-### Modèle Pathologique
+### Analyse et Interprétation
 
-- **Étude sur Souris KO :** Utilisation du modèle pour examiner l'effet d'une maladie affectant la tolérance au glucose&#8203;``【oaicite:0】``&#8203;.
-- **Comparaison Souris Saines et KO :** Analyse des différences dans la réponse glycémique entre les souris saines et les souris KO.
+- **Comparaison des Modèles :** Discussion sur la performance et la pertinence de chaque modèle dans la représentation de la dynamique glycémique.
+- **Implications Biologiques :** Interprétation des résultats à la lumière des connaissances actuelles sur la régulation du glucose et le diabète.
 
-## Conclusion
+## Conclusion et Perspectives Futures
 
-Ce projet a permis d'acquérir une compréhension approfondie de la régulation de la glycémie chez les souris et d'explorer l'impact de maladies spécifiques sur ce processus. Les résultats obtenus offrent des perspectives prometteuses pour de futures recherches et applications potentielles dans le domaine de la santé humaine.
+Ce projet met en lumière l'importance et la complexité de modéliser la régulation de la glycémie. Les modèles développés offrent une base solide pour de futures recherches et applications cliniques.
 
-## Perspectives Futures
+### Perspectives Futures
 
-- **Extension à l'Étude Humaine :** Adapter et tester le modèle pour des applications chez l'homme.
-- **Recherche sur d'Autres Pathologies :** Utiliser le modèle pour étudier d'autres maladies métaboliques affectant la glycémie.
-
-## Contributions
-
-Toute contribution, suggestion ou feedback pour améliorer ce projet est chaleureusement bienvenue.
+- **Amélioration du Modèle :** Exploration de méthodes supplémentaires pour affiner la précision et la généralisabilité du modèle.
+- **Applications Cliniques :** Adaptation du modèle pour des études sur les patients diabétiques et pré-diabétiques.
+- **Recherche Continue :** Poursuite des recherches pour inclure d'autres facteurs biologiques et environnementaux affectant la glycémie.
